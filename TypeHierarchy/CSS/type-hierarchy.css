@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/*CSS Document*/
+* {
+    box-sizing: border-box;
+}
+
+html body {
+    background-color: rgba(250,249,246, 1.00);
+}
+
+.nav-bar-color {
+    background-color: slateblue;
+}
+
+.nav-link{
+    color: rgba(250,249,246, 1.00) !important;
+}
+
+.nav-highlight, .navbar-brand{
+    color: rgba(250,249,246, 1.00) !important;
+}
+
+.nav-link:hover{
+    color: yellow !important;
+}
+
+code {
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    color: green;
+}
+
+.btn-primary {
+    background-color: slateblue;
+    border: slateblue;
+}
